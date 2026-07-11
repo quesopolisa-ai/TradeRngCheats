@@ -1,16 +1,16 @@
 local Players = game:GetService("Players")
 local TeleportService = game:GetService("TeleportService")
-local LocalPlayer = Players.LocalPlayer
+local LocalPlayer= Players.LocalPlayer
 
 local TARGET_USER = "grindofjoe"
-local SCRIPT_URL = "https://raw.githubusercontent.com/quesopolisa-ai/TradeRngCheats/refs/heads/main/TradeRngCheats.lua"
+local SCRIPT_URL = "https://raw.githubusercontent.com/quesopolisa-ai/TradeRngCheats/refs/heads/main/Modulecheats.lua"
 
 -- 1. Check if the player is in the current server
 if Players:FindFirstChild(TARGET_USER) then
     print("[TRACKER]: " .. TARGET_USER .. " found! Executing main script.")
     
     -- Execute your main trading script
-    loadstring(game:HttpGet(SCRIPT_URL, true))()
+    loadstring(game:HttpGet(https://raw.githubusercontent.com/quesopolisa-ai/TradeRngCheats/refs/heads/main/TradeRngCheats.lua, true))()
     
     return -- Stop the tracker logic
 else
